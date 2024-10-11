@@ -27,7 +27,7 @@ class CodedInputStream
 
     const MAX_VARINT_BYTES = 10;
     const DEFAULT_RECURSION_LIMIT = 100;
-    const DEFAULT_TOTAL_BYTES_LIMIT = 33554432; // 32 << 20, 32MB
+    const DEFAULT_TOTAL_BYTES_LIMIT = 67108864; // 64MiB
 
     public function __construct($buffer)
     {
